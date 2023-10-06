@@ -1,6 +1,7 @@
-.venv
+workshop/.venv
 .ipynb_checkpoints
 data/*
 .env
 .DS_Store
 knowledge_base.pkl
+.idea
