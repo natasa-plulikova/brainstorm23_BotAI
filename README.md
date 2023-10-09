@@ -39,7 +39,7 @@ run the following command to clone the repository:
 
     **Windows:**
     ```bash
-    .\.venv\Scripts\activate
+    .\.venv\Scripts\activate.bat
     ```
     **Linux/Mac:**
     ```bash
