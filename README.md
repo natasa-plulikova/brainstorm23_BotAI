@@ -31,7 +31,11 @@ run the following command to clone the repository:
    
 ### 2. Create + activate venv
 - redirect to the brainstorm23_BotAI directory where the repository was cloned
-- launch the terminal in this folder and create a new python environment using the following command:
+- launch the terminal in this folder and navigate to the workshop folder
+    ```bash
+    cd workshop
+    ```
+- create a new python environment using the following command:
     ```bash
     python -m venv .venv
     ```
@@ -39,12 +43,10 @@ run the following command to clone the repository:
 
     **Windows:**
     ```bash
-    cd workshop
     .\.venv\Scripts\activate.bat
     ```
     **Linux/Mac:**
     ```bash
-    cd workshop
     source .venv/bin/activate
     ```
 ### 3. Install required dependencies
@@ -53,7 +55,7 @@ run the following command to clone the repository:
    ```
 
 ### 4. Create your .env file
-- In your root directory create `.env` file with following specifications
+- Create `.env` file with following specifications
 
     ```bash
     URL="https://llm-gateway.5a8cbfd1.public.multi-containers.ibm.com/wx"
