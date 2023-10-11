@@ -12,10 +12,10 @@ from langchain.text_splitter import CharacterTextSplitter
 from langchain.vectorstores import FAISS
 from PyPDF2 import PdfReader
 
-load_dotenv()
+load_dotenv(override=True)
 
 creds = Credentials(
-    api_key=os.environ["BAM_API_KEY"], api_endpoint="https://bam-api.res.ibm.com/v1"
+    api_key=os.environ["APIKEY"], api_endpoint=os.environ["URL"]
 )
 params = GenerateParams(
     decoding_method="greedy", min_new_tokens=30, max_new_tokens=1024, temperature=0.5
